@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <content display_value="Inbox Module Content">52c3dda91bd710505a7d21fcbc4bcbe9</content>
+        <content_attrs/>
+        <content_component display_value="sn-inbox">15415f6bc913d31534330f91530c944c</content_component>
+        <content_tag/>
+        <detail display_value="Inbox Module Detail">9ac3dda91bd710505a7d21fcbc4bcbf1</detail>
+        <detail_attrs/>
+        <detail_component display_value="sn-inbox-empty">ee222d2bff222300294153bd6338f113</detail_component>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>inbox-outline</icon>
+        <id>inbox</id>
+        <label>Inbox</label>
+        <order>200</order>
+        <roles/>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-16 18:30:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>16c3dda91bd710505a7d21fcbc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_aw_module_16c3dda91bd710505a7d21fcbc4bcbdd</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-16 18:30:38</sys_updated_on>
+        <toolbar_button display_value="Inbox Button">5ac3dda91bd710505a7d21fcbc4bcbdd</toolbar_button>
+        <type>master_detail</type>
+        <workspace_config display_value="Risk Issue">61b315291bd710505a7d21fcbc4bcbff</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="delete_multiple" query="document_key=16c3dda91bd710505a7d21fcbc4bcbdd"/>
+</record_update>

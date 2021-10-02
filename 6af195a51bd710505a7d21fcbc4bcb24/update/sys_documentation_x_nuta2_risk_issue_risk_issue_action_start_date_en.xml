@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="start_date" label="Start Date" language="en" table="x_nuta2_risk_issue_risk_issue_action">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <help/>
+            <hint/>
+            <label>Start Date</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue_action</name>
+            <plural>Start Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-30 01:05:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>08caa1791be790905a7d21fcbc4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Start Date</sys_name>
+            <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+            <sys_update_name>sys_documentation_x_nuta2_risk_issue_risk_issue_action_start_date_en</sys_update_name>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-09-30 01:05:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

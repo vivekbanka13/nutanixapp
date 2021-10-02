@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_nuta2_risk_issue_risk_issue</collection>
+        <email_layout display_value="Demo Layout - Go To Instance Button">b536f1717f1312007f005212bdfa9167</email_layout>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: helvetica; font-size: 10pt;">${mail_script:nutanix_body_header}</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;"><strong>Identified By:</strong> ${identified_by}</span><br /><br /><span style="font-family: helvetica; font-size: 10pt;"><strong>Risk Issue Title</strong>: ${risk_issue_title}</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;"><strong>Risk Issue Description:</strong> ${risk_issue_description}</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;"><strong>Inherent Impact:</strong> ${inherent_impact}</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;"><strong>Inherent Likelihood:</strong> ${inherent_likelihood}</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;"><strong>Inherent Risk Rating:</strong> ${inherent_risk_rating}</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">${mail_script:riskissue_worknotes}</span></p>
+<p><span style="font-family: helvetica; font-size: 10pt;">${mail_script:take_me_to_the_record_risk}</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>risk.issue.template.worknotes</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-30 22:25:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>31ef424a1bebd0905a7d21fcbc4bcb24</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>risk.issue.template.worknotes</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sysevent_email_template_31ef424a1bebd0905a7d21fcbc4bcb24</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-11-18 01:47:42</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

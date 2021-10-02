@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>take_me_to_the_record_risk</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	
+	var backgroundColor = 'background-color: #0C4DA2;';
+	var border = 'border: 1px solid #0368d4;';
+	var color = 'color: #ffffff;';
+	var fontSize = 'font-size: 16px;';
+	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+	var textDecoration = 'text-decoration: none; border-radius: 3px;';
+	var webKitBorder = '-webkit-border-radius: 3px;';
+	var mozBorder = '-moz-border-radius: 3px;';
+	var display = 'display: inline-block;';
+	var padding = 'padding: 5px';
+	
+	var link = current.getLink();
+	template.print('<a href="' + link + '"');
+	template.print('style="' + backgroundColor + border + color + fontSize + fontFamily + textDecoration + webKitBorder + mozBorder + display + padding);
+	template.print('">');
+	template.print(gs.getMessage('Take me to the record'));
+	template.print('</a>');
+	template.print('</font>');
+	template.print('<br><br>');
+	template.print('<p><font size=3" color="#3a5575" face="Verdana">');
+	template.print('</font></p>');
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-11-18 01:46:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d5f98a69dba4205077c8c8da0b961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>take_me_to_the_record_risk</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_script_email_d5f98a69dba4205077c8c8da0b961990</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-11-18 01:46:12</sys_updated_on>
+    </sys_script_email>
+</record_update>

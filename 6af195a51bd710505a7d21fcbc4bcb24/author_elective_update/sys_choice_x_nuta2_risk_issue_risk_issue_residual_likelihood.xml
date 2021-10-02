@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="residual_likelihood" table="x_nuta2_risk_issue_risk_issue" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>residual_likelihood</element>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-22 07:41:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a9a8bd9f1b5bd4505a7d21fcbc4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>residual_likelihood</sys_name>
+            <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+            <sys_update_name>sys_choice_x_nuta2_risk_issue_risk_issue_residual_likelihood</sys_update_name>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-09-22 07:41:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>residual_likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-22 07:41:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7a9871131b9bd4505a7d21fcbc4bcbbb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-10-16 20:20:06</sys_updated_on>
+            <value>Critical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>residual_likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-22 07:41:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>76b879db1b5bd4505a7d21fcbc4bcb55</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-10-16 20:20:25</sys_updated_on>
+            <value>High</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>residual_likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-22 07:41:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9ac8bddf1b5bd4505a7d21fcbc4bcba7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-10-16 20:20:21</sys_updated_on>
+            <value>Medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>residual_likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-22 07:41:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3ad871131b9bd4505a7d21fcbc4bcb38</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-10-16 20:20:10</sys_updated_on>
+            <value>Low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>residual_likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very Low</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-22 07:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>71e8fddf1b5bd4505a7d21fcbc4bcbcd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-10-16 20:20:14</sys_updated_on>
+            <value>Very Low</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

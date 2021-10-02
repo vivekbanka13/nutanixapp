@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions/>
+        <catalog_item display_value="Risk Issue">b456cd2b1bd718505a7d21fcbc4bcbfe</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Set Fields Values</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-23 22:00:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>980782b31b5f58505a7d21fcbc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Fields Values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>catalog_ui_policy_980782b31b5f58505a7d21fcbc4bcb6e</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-23 22:00:56</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+</record_update>

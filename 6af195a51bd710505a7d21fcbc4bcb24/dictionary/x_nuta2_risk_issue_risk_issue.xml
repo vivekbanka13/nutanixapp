@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Risk Issue" max_length="40" name="x_nuta2_risk_issue_risk_issue" sizeclass="56" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Business Process Impacted" max_length="40" name="business_process_impacted" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Risk Org" max_length="40" name="business_risk_org" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Risk Owner" max_length="32" name="business_risk_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Risk Issue" value="Risk Issue"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Certification Impacted" max_length="40" name="certification_impacted" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ISO27001 Corporate" sequence="0" value="ISO27001 Corporate"/>
+                <element inactive_on_update="false" label="ISO27001 Product" sequence="1" value="ISO27001 Product"/>
+                <element inactive_on_update="false" label="ISO 28000" sequence="2" value="ISO 28000"/>
+                <element inactive_on_update="false" label="FedRamp" sequence="3" value="FedRamp"/>
+                <element inactive_on_update="false" label="SOC2 Xi Frame" sequence="4" value="SOC2 Xi Frame"/>
+                <element inactive_on_update="false" label="SOC2 Xi Leap" sequence="5" value="SOC2 Xi Leap"/>
+                <element inactive_on_update="false" label="SOC2 Xi Beam" sequence="6" value="SOC2 Xi Beam"/>
+                <element inactive_on_update="false" label="NA" sequence="7" value="NA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Compensating Controls" max_length="1000" name="compensating_controls" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Control Impacted" max_length="1000" name="control_mapping" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Identified By" mandatory="true" max_length="32" name="identified_by" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Identified On" mandatory="true" max_length="40" name="identified_on" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Impacted Stakeholder" max_length="40" name="impacted_stakeholder" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact Adjustment Factor" max_length="1000" name="impact_adjustment_factor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Inherent Impact" max_length="40" name="inherent_impact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="Critical"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Very Low" sequence="5" value="Very Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Inherent Likelihood" max_length="40" name="inherent_likelihood" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="Critical"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Very Low" sequence="5" value="Very Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Inherent Risk Rating" max_length="40" name="inherent_risk_rating" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="Critical"/>
+                <element inactive_on_update="false" label="High" value="High"/>
+                <element inactive_on_update="false" label="Low" value="Low"/>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+                <element inactive_on_update="false" label="Very Low" value="Very Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Likelihood Adjustment Factors" max_length="1000" name="likelihood_adjustment_factors" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,tree_picker=true" label="Owner Organization" max_length="32" name="owner_organization" reference="sys_user_group" reference_qual="typeLIKEc8e91556dbe8870066a8f456bf961922^EQ" reference_qual_condition="typeLIKEc8e91556dbe8870066a8f456bf961922^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Remediation Recommendations" max_length="1000" name="remediation_recommendations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remediation Start Date" max_length="40" name="remediation_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Residual Impact" max_length="40" name="residual_impact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="Critical"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Very Low" sequence="5" value="Very Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Residual Likelihood" max_length="40" name="residual_likelihood" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="Critical"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="4" value="Low"/>
+                <element inactive_on_update="false" label="Very Low" sequence="5" value="Very Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Residual Risk Rating" max_length="40" name="residual_risk_rating" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="Critical"/>
+                <element inactive_on_update="false" label="High" value="High"/>
+                <element inactive_on_update="false" label="Low" value="Low"/>
+                <element inactive_on_update="false" label="Medium" value="Medium"/>
+                <element inactive_on_update="false" label="Very Low" value="Very Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Resolution Date" max_length="40" name="resolution_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Revised Due Date" max_length="40" name="revised_due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Risk Category" max_length="40" name="risk_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Risk Issue Description" mandatory="true" max_length="1000" name="risk_issue_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Original Due Date" max_length="40" name="risk_issue_due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" dependent="owner_organization" dependent_on_field="owner_organization" label="Risk issue Owner" max_length="40" name="risk_issue_owner" reference="sys_user" reference_qual="javascript:new global.userGroup().getMembers(current.owner_organization)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Risk Issue Title" mandatory="true" max_length="1000" name="risk_issue_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risk Response Approach" max_length="40" name="risk_response_approach" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Accept" sequence="0" value="Accept"/>
+                <element inactive_on_update="false" label="Remediate" sequence="1" value="Remediate"/>
+                <element inactive_on_update="false" label="Ignore" sequence="2" value="Ignore"/>
+                <element inactive_on_update="false" label="Mitigate" sequence="3" value="Mitigate"/>
+                <element inactive_on_update="false" label="Transfer" sequence="4" value="Transfer"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Root Cause Analysis" max_length="1000" name="root_cause_analysis" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="source" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Control Test" sequence="1" value="Control Test"/>
+                <element inactive_on_update="false" label="External Audit" sequence="2" value="External Audit"/>
+                <element inactive_on_update="false" label="Internal Audit" sequence="3" value="Internal Audit"/>
+                <element inactive_on_update="false" label="Self-Identified" sequence="4" value="Self-Identified"/>
+                <element inactive_on_update="false" label="Vendor Risk Assessment" sequence="5" value="Vendor Risk Assessment"/>
+                <element inactive_on_update="false" label="Vulnerability Scan" sequence="6" value="Vulnerability Scan"/>
+                <element inactive_on_update="false" label="Others" sequence="7" value="Others"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Source Details" max_length="40" name="source_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Draft" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="Draft"/>
+                <element inactive_on_update="false" label="Remediation In-progress" sequence="2" value="Remediation In-progress"/>
+                <element inactive_on_update="false" label="Remediation Complete" sequence="3" value="Remediation Complete"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="Cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="System/CI Impacted" max_length="40" name="system_ci_impacted" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Threat Overview" max_length="1000" name="threat_overview" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vulnerability Overview" max_length="1000" name="vulnerability_overview" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Done" max_length="1000" name="work_done" type="string"/>
+        <index name="index">
+            <element name="risk_issue_owner"/>
+        </index>
+        <index name="index2">
+            <element name="owner_organization"/>
+        </index>
+        <index name="index3">
+            <element name="business_risk_owner"/>
+        </index>
+        <index name="index4">
+            <element name="identified_by"/>
+        </index>
+    </element>
+</database>

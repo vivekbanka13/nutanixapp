@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Risk Issue Action" max_length="40" name="x_nuta2_risk_issue_risk_issue_action" sizeclass="25" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Action Description" max_length="1000" name="action_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action Due Date" mandatory="true" max_length="40" name="action_due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" dependent="action_owner_organization" dependent_on_field="action_owner_organization" label="Action Owner" mandatory="true" max_length="32" name="action_owner" reference="sys_user" reference_floats="true" reference_qual="javascript: new global.userGroup().getMembers(current.action_owner_organization)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,tree_picker=true" label="Action Owner Organization" mandatory="true" max_length="32" name="action_owner_organization" reference="sys_user_group" reference_qual="typeLIKEc8e91556dbe8870066a8f456bf961922^EQ" reference_qual_condition="typeLIKEc8e91556dbe8870066a8f456bf961922^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Action Title" max_length="100" name="action_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Approval from" max_length="32" name="approval_from" reference="sys_user" reference_qual="active=true^web_service_access_only=false^EQ" reference_qual_condition="active=true^web_service_access_only=false^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Risk Acceptance by" max_length="32" name="risk_acceptance_by" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Risk Issue" mandatory="true" max_length="32" name="risk_issue" reference="x_nuta2_risk_issue_risk_issue" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="status" label="Status" mandatory="true" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="1" value="Open"/>
+                <element inactive_on_update="false" label="In-Progress" sequence="2" value="In-Progress"/>
+                <element inactive_on_update="false" label="Expired" sequence="3" value="Expired"/>
+                <element inactive_on_update="false" label="Action Completed" sequence="4" value="Action Completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="Cancelled"/>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="Closed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Subcategory" mandatory="true" max_length="40" name="subcategory" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Policy Exception" value="Policy Exception"/>
+                <element inactive_on_update="false" label="Risk Acceptance" value="Risk Acceptance"/>
+                <element inactive_on_update="false" label="Risk Issue Action" value="Risk Issue Action"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Work Done" max_length="1000" name="work_done" type="string"/>
+        <index name="index">
+            <element name="action_owner"/>
+        </index>
+        <index name="index2">
+            <element name="risk_acceptance_by"/>
+        </index>
+        <index name="index3">
+            <element name="action_owner_organization"/>
+        </index>
+        <index name="index4">
+            <element name="risk_issue"/>
+        </index>
+        <index name="index5">
+            <element name="approval_from"/>
+        </index>
+    </element>
+</database>

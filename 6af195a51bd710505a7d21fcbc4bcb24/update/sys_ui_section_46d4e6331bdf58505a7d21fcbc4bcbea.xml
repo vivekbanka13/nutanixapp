@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes" section_id="46d4e6331bdf58505a7d21fcbc4bcbea" sys_domain="global" table="x_nuta2_risk_issue_risk_issue" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-26 00:04:02</sys_created_on>
+            <sys_id>7566b8641b2f1c505a7d21fcbc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_nuta2_risk_issue_risk_issue" sys_domain="global" view="Default view">46d4e6331bdf58505a7d21fcbc4bcbea</sys_ui_section>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-09-26 00:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-26 00:04:02</sys_created_on>
+            <sys_id>f966b8641b2f1c505a7d21fcbc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_nuta2_risk_issue_risk_issue" sys_domain="global" view="Default view">46d4e6331bdf58505a7d21fcbc4bcbea</sys_ui_section>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-09-26 00:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-26 00:04:02</sys_created_on>
+            <sys_id>7166b8641b2f1c505a7d21fcbc4bcbdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_nuta2_risk_issue_risk_issue" sys_domain="global" view="Default view">46d4e6331bdf58505a7d21fcbc4bcbea</sys_ui_section>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-09-26 00:04:02</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-24 00:11:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>46d4e6331bdf58505a7d21fcbc4bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nuta2_risk_issue_risk_issue</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+            <sys_update_name>sys_ui_section_46d4e6331bdf58505a7d21fcbc4bcbea</sys_update_name>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-09-24 00:11:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

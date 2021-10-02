@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Risk Issue">b456cd2b1bd718505a7d21fcbc4bcbfe</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-23 21:59:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f9a60a731b5f58505a7d21fcbc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Risk Issue</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f9a60a731b5f58505a7d21fcbc4bcbaa</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-23 21:59:13</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

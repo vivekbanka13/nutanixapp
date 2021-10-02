@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Risk Issue">8e8391a91bd710505a7d21fcbc4bcbbb</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_app_module/>
+        <mobile_title>Closed</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_nuta2_risk_issue_risk_issue</name>
+        <order>5</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>active=false^EQ</query>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-16 18:29:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ca8391a91bd710505a7d21fcbc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_app_module_ca8391a91bd710505a7d21fcbc4bcbca</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-16 18:29:32</sys_updated_on>
+        <timeline_page/>
+        <title>Closed</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <view_on_mobile>false</view_on_mobile>
+        <window_name/>
+    </sys_app_module>
+</record_update>

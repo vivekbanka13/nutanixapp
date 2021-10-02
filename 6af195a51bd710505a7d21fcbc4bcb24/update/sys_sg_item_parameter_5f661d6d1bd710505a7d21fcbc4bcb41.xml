@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Risk Issue Action business_service</name>
+        <parent>d7661d6d1bd710505a7d21fcbc4bcb3d</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-16 18:42:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5f661d6d1bd710505a7d21fcbc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Issue Action business_service</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_5f661d6d1bd710505a7d21fcbc4bcb41</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-16 18:42:10</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

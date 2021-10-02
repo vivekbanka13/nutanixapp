@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="revised_due_date" label="Revised Due Date" language="en" table="x_nuta2_risk_issue_risk_issue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>revised_due_date</element>
+            <help/>
+            <hint/>
+            <label>Revised Due Date</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <plural>Revised Due Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-10-16 21:50:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>55216c931bff18105a7d21fcbc4bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Revised Due Date</sys_name>
+            <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+            <sys_update_name>sys_documentation_x_nuta2_risk_issue_risk_issue_revised_due_date_en</sys_update_name>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-10-16 21:50:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

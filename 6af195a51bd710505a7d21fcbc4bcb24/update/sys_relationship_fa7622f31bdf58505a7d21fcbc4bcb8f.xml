@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_nuta2_risk_issue_risk_issue_action</basic_apply_to>
+        <basic_query_from>x_nuta2_risk_issue_risk_issue</basic_query_from>
+        <insert_callback/>
+        <name>Risk issue Action</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+current.addQuery('u_risk_issue', parent.sys_id);
+})(current, parent);]]></query_with>
+        <reference_field>cmdb_ci</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-24 00:23:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa7622f31bdf58505a7d21fcbc4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk issue Action</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_relationship_fa7622f31bdf58505a7d21fcbc4bcb8f</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-24 00:23:17</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa7622f31bdf58505a7d21fcbc4bcb8f"/>
+</record_update>

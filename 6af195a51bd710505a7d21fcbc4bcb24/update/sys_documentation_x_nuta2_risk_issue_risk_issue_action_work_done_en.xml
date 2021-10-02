@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="work_done" label="Work Done" language="en" table="x_nuta2_risk_issue_risk_issue_action">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>work_done</element>
+            <help/>
+            <hint/>
+            <label>Work Done</label>
+            <language>en</language>
+            <name>x_nuta2_risk_issue_risk_issue_action</name>
+            <plural>Work Dones</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-09-24 01:00:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>45103e7f1bdf58505a7d21fcbc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work Done</sys_name>
+            <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+            <sys_update_name>sys_documentation_x_nuta2_risk_issue_risk_issue_action_work_done_en</sys_update_name>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-09-24 01:00:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

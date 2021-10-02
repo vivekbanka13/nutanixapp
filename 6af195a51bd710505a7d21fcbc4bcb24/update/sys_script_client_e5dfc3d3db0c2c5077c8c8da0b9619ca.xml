@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>action_description</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Values on Load</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var val = g_form.getValue('subcategory');
+   if (val== 'Risk Issue Action') {
+        g_form.addOption('status', 'Open', 'Open');
+        g_form.addOption('status', 'Action Completed', 'Action Completed');
+        g_form.addOption('status', 'Cancelled', 'Cancelled');
+        g_form.addOption('status', 'In-Progress', 'In-Progress');
+        g_form.removeOption('status', 'Closed');
+        g_form.removeOption('status', 'Expired');
+    } else {
+        g_form.addOption('status', 'Open', 'Open');
+        g_form.addOption('status', 'Closed', 'Closed');
+        g_form.addOption('status', 'Expired', 'Expired');
+        g_form.addOption('status', 'Cancelled', 'Cancelled');
+        g_form.removeOption('status', 'Action Completed');
+        g_form.removeOption('status', 'In-Progress');
+
+
+    }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-10-29 20:49:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e5dfc3d3db0c2c5077c8c8da0b9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Values on Load</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_script_client_e5dfc3d3db0c2c5077c8c8da0b9619ca</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-10-29 20:49:49</sys_updated_on>
+        <table>x_nuta2_risk_issue_risk_issue_action</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

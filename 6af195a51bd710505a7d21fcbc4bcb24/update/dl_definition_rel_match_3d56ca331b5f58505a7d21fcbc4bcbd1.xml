@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="Risk Issue Residual">a146ca331b5f58505a7d21fcbc4bcbac</dl_definition>
+        <exact_match>true</exact_match>
+        <matcher_table>x_nuta2_risk_issue_risk_data_lookup</matcher_table>
+        <matcher_table_field>inherent_impact</matcher_table_field>
+        <source_table>x_nuta2_risk_issue_risk_issue</source_table>
+        <source_table_field>residual_impact</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-23 21:58:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3d56ca331b5f58505a7d21fcbc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>residual_impact</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>dl_definition_rel_match_3d56ca331b5f58505a7d21fcbc4bcbd1</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-23 21:58:00</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

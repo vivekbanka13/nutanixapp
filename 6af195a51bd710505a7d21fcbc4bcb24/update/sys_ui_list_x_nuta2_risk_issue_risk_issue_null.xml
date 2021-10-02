@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_nuta2_risk_issue_risk_issue" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>710a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>f10a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>750a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>identified_by</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>f50a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>790a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>risk_issue_title</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>f90a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>risk_issue_description</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>7d0a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>owner_organization</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>fd0a2f80db54209077c8c8da0b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>risk_issue_owner</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>710a2f80db54209077c8c8da0b9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>residual_risk_rating</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>f10a2f80db54209077c8c8da0b9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inherent_risk_rating</element>
+            <list_id display_value="x_nuta2_risk_issue_risk_issue" element="NULL" name="x_nuta2_risk_issue_risk_issue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">710a2f80db54209077c8c8da0b9619c6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_id>750a2f80db54209077c8c8da0b9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_nuta2_risk_issue_risk_issue</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>sowmya.madharapu</sys_created_by>
+            <sys_created_on>2020-11-01 06:38:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>710a2f80db54209077c8c8da0b9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_nuta2_risk_issue_risk_issue</sys_name>
+            <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+            <sys_update_name>sys_ui_list_x_nuta2_risk_issue_risk_issue_null</sys_update_name>
+            <sys_updated_by>sowmya.madharapu</sys_updated_by>
+            <sys_updated_on>2020-11-01 06:38:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

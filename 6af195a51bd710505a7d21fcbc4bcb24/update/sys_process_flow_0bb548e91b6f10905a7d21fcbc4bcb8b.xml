@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_nuta2_risk_issue_risk_issue">status=Draft^EQ<item display_value="Draft" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Draft"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Draft</label>
+        <name>Risk Issue Draft</name>
+        <order>1</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-28 23:06:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0bb548e91b6f10905a7d21fcbc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Issue Draft</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_process_flow_0bb548e91b6f10905a7d21fcbc4bcb8b</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-28 23:06:00</sys_updated_on>
+        <table>x_nuta2_risk_issue_risk_issue</table>
+    </sys_process_flow>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>93661d6d1bd710505a7d21fcbc4bcb37</applets>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <orientation>horizontal</orientation>
+        <required_roles>x_nuta2_risk_issue.risk issue</required_roles>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>sowmya.madharapu</sys_created_by>
+        <sys_created_on>2020-09-16 18:42:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5b661d6d1bd710505a7d21fcbc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk Issue Action</sys_name>
+        <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
+        <sys_update_name>sys_sg_icon_section_5b661d6d1bd710505a7d21fcbc4bcb6d</sys_update_name>
+        <sys_updated_by>sowmya.madharapu</sys_updated_by>
+        <sys_updated_on>2020-09-16 18:42:11</sys_updated_on>
+        <table/>
+        <title>Risk Issue Action</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>
