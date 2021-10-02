@@ -28,7 +28,7 @@
 		g_form.setReadOnly('root_cause_analysis', true);
 		g_form.setReadOnly('risk_issue_due_date', true);
 		g_form.setReadOnly('status', true);
-		
+		//
 		
 	}
   
@@ -39,7 +39,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>efb829651b2750905a7d21fcbc4bcbea</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Set Values</sys_name>
         <sys_overrides/>
         <sys_package display_value="Risk Issue" source="x_nuta2_risk_issue">6af195a51bd710505a7d21fcbc4bcb24</sys_package>
@@ -47,8 +47,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Risk Issue">6af195a51bd710505a7d21fcbc4bcb24</sys_scope>
         <sys_update_name>sys_script_client_efb829651b2750905a7d21fcbc4bcbea</sys_update_name>
-        <sys_updated_by>sowmya.madharapu</sys_updated_by>
-        <sys_updated_on>2020-09-29 23:00:56</sys_updated_on>
+        <sys_updated_by>vivek.banka</sys_updated_by>
+        <sys_updated_on>2021-10-02 20:35:23</sys_updated_on>
         <table>x_nuta2_risk_issue_risk_issue</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
